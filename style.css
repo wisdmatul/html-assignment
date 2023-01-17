@@ -10,6 +10,7 @@ body{
 .first-section{
     background-color: #1F2937;
     margin-bottom: 50px;
+    
 }
 
 #header-logo{
@@ -39,6 +40,7 @@ ul{
     font-size: 18px;
     color: #F9FAF8; 
     margin: 10px;
+    font-weight: lighter;
 }
 
 h1{
@@ -82,15 +84,16 @@ img{
 .sign-up-first-section{
     background-color: #3882f6;
     color: white;
-    width: 100px;
-    height: 40px;
+    width: 130px;
+    height: 38px;
     border: 1px #3882f6;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 h2{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937;
     text-align: center;
 }
@@ -99,6 +102,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 50px;
     max-width: 100%;
     margin: 100px;
 }
@@ -110,14 +114,15 @@ h2{
 
 .box-blue{
     border: 3px solid #3882f6;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 10px;
 }
 
 .p-second{
     text-align: center;
     font-size: 18px;
+    font-weight: lighter;
 }
 
 .third-section{
@@ -129,7 +134,7 @@ h2{
 
 }
 
-h3{
+.p-quote{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -159,10 +164,11 @@ h3{
 
 .blue-container{
     background-color: #3882f6;
-    width: 75%;
-    height: 40%;
+    width: 80%;
+    height: 50%;
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
 }
 
 .left{
@@ -192,10 +198,12 @@ h4{
 .btn-last-div{
     background-color: #3882f6;
     color: white;
-    width: 100px;
+    width: 150px;
     height: 40px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
+    margin-right: 100px;
+    font-size: 18px;
 }
 
 .footer{
