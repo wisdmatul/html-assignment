@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/*html{
+    font-size: 62.5%;
+    -->1 rem=10px
+}*/
+
 body{
     font-family: 'Roboto slab', serif;
 }
@@ -213,4 +218,39 @@ h4{
     background-color: #1F2937;
     color: white;
     height: 75px;
+}
+
+@media(max-width: 900px){
+    .first-section{
+        margin-bottom: 50px;
+    }
+
+    #header-logo{
+        font-size: 20px;
+    }
+
+    .navbar-left,.navbar-right{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-link{
+        font-size: 12px;
+        color: #F9FAF8; 
+        margin: 10px;
+        font-weight: lighter;
+    }
+
+    h1{
+        font-size: 36px;
+        font-weight: bolder;
+        color: #F9FAF8
+    }
 }
